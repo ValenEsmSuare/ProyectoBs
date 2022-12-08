@@ -1,0 +1,19 @@
+.ImagenLogo
+{height: 100px}
+
+.imagenCarousel
+{ 
+    width: 100%;
+    height: 300px ;
+}
+.imagenesProducto 
+{
+    width: 100%;
+    height: 300px ;
+ 
+}
+
+.separacionColumnas
+{
+    margin: 20px;
+}

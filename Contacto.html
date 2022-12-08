@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Inicio</title>
+        <link href="bootstrap/css/Img.css" rel="stylesheet" type="text/css" />
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+       
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">
+              <img class="ImagenLogo" src="imagenes/Logo.jpg" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="quienesSomos.html">¿Quienes somos? <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="paraQuefunciona.html">¿Para que funciona?</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Productos.html">Productos</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>   
+        </nav>
+
+        <div class="container">
+             <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                    
+                            <legend class="text-center header">Contacto</legend>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-11">
+                                    <input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                 <div class="col-md-11">
+                                    <input id="Apellido" name="Apellido" type="text" placeholder="Apellido" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-11">
+                                 <input id="email" name="email" type="text" placeholder="Email " class="form-control">
+                             </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-11">
+                                    <input id="Numero" name="de telefono" type="text" placeholder="Numero de telefono" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-11">
+                                 <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Deje un mensaje" rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-11 text-right">
+                                    <button type="Enviar" class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
