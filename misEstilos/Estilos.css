@@ -1,1 +1,22 @@
-/*# sourceMappingURL=Estilos.css.map */
+.recuadroPromociones h1 {
+  color: #0033FF;
+  font-size: x-large;
+}
+.recuadroPromociones:hover {
+  background-color: #FFFF66;
+}
+.recuadroPromociones p {
+  color: #000066;
+}
+
+h1 {
+  color: #0033FF;
+}
+
+.recuadroProducto h3 {
+  color: #0066FF;
+}
+.recuadroProducto p {
+  border: #0000FF;
+  background-color: #FFFF66;
+}/*# sourceMappingURL=Estilos.css.map */

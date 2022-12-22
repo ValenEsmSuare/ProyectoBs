@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Estilos.css"}
+{"version":3,"sources":["Estilos.scss","Estilos.css"],"names":[],"mappings":"AAII;EACI,cALM;EAMN,kBAAA;ACHR;ADKI;EACI,yBAAA;ACHR;ADKI;EACI,cAAA;ACHR;;ADUI;EACI,cApBM;ACad;;ADYG;EACC,cAAA;ACTJ;ADWG;EACK,eAAA;EACA,yBAAA;ACTR","file":"Estilos.css"}

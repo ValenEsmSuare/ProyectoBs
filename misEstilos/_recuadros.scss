@@ -1,0 +1,24 @@
+.recuadroPromociones 
+{
+    h1 {
+        color:$colorTitulo;
+        font-size:x-large;
+    }
+    &:hover{
+        background-color: #FFFF66;
+    }
+    p {
+        color: #000066;
+    }
+
+}
+.recuadroProducto
+{
+   h3 {
+    color: #0066FF;
+   } 
+   p { 
+        border: #0000FF;
+        background-color: #FFFF66;
+   }
+}
