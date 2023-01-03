@@ -1,6 +1,6 @@
 .recuadroPromociones h1 {
   color: #0033FF;
-  font-size: x-large;
+  font-size: 1.2em;
 }
 .recuadroPromociones:hover {
   background-color: #FFFF66;
@@ -18,5 +18,6 @@ h1 {
 }
 .recuadroProducto p {
   border: #0000FF;
-  background-color: #FFFF66;
+  background-color: FFFF66;
+  font-size: 40px;
 }/*# sourceMappingURL=Estilos.css.map */
