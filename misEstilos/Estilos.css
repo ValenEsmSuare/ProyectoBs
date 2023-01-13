@@ -1,6 +1,6 @@
-.recuadroPromociones h1 {
+.recuadroPromociones h2 {
   color: #0033FF;
-  font-size: 1.2em;
+  font-size: x-large;
 }
 .recuadroPromociones:hover {
   background-color: #FFFF66;
@@ -13,11 +13,81 @@ h1 {
   color: #0033FF;
 }
 
-.recuadroProducto h3 {
+.recuadroProducto h1 {
   color: #0066FF;
 }
 .recuadroProducto p {
   border: #0000FF;
-  background-color: FFFF66;
-  font-size: 40px;
+  background-color: #FFFF66;
 }/*# sourceMappingURL=Estilos.css.map */
+
+.colorBoton
+{
+  color: #fff;
+  background-color: #0A497B;
+  border-color: #73C2FB;
+  
+}
+
+.fondoFooter
+{
+  background-color: #007bff !important
+}
+
+.saltoFooter
+{
+  margin-top:40px
+}
+
+.colorFooter
+{
+  color: #003333;
+  border-color: #003333;
+}
+
+.salto
+{
+  margin: 5%;
+}
+.tpografiaTexto
+{
+  font-size: 1.2em;
+}
+.altoImagen
+{
+  height: 100px;;
+}
+
+.carruselControl
+{
+  width: 70%;
+  margin-left: 15%
+}
+
+.carruselItem
+{
+  height: 250px;
+}
+
+/*
+@media (max-width: 1000px) {
+  .tpografiaTexto
+  {
+    font-size: 2em;
+  }
+  .recuadroProducto h2
+  {
+    font-size: 1em;
+
+  }
+  .recuadroProducto p 
+  {
+    font-size: 1em;
+  }
+  h1
+  {
+    font-size: 1em;
+  }
+  
+  }
+  */
